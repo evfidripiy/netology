@@ -1,9 +1,9 @@
 <?php
-$userValue = $_GET['x'];
+$userValue = $_GET["x"];
 $one = 1;
-$two = 1;
+$two = 1; 
 
-while ($one <= $userValue) {
+while (isset($userValue)) {
     if ($one != $userValue) {        
         $three = $one;
         $one = $one + $two;
